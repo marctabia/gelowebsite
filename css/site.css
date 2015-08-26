@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+    background: url(/images/noise.jpg);
+}
+
+header, main, footer {
+    padding-left: 15em;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+}
+
+.profile {
+    background: url(/images/lecture.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.profile-body {
+    height: 35em;
+    padding-top: 10em;
+    text-shadow: 0.10em 0.15em black;
+}
+
+.menu-icons {
+    width: 1.5em;
+    float: left;
+}
+
+.card-title {
+    padding-left: 1em;
+}
+
+
+#link-title {
+    height: 15em;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#link-title div {
+    display: block;
+    box-sizing: border-box;
+}
+
+.header-name {
+    box-sizing: inherit;
+    text-align: right;
+    font-size: 1.6em;
+    font-weight: 200;
+    line-height: 1em;
+    margin-left: 1.5em;
+}
+
+.header-detail {
+    box-sizing: inherit;
+    text-align: right;
+    font-size: .8em;
+    line-height: 2em;
+}
+
+.main-name, .main-detail, .main-email, .main-address, .main-blog, .main-twitter {
+    box-sizing: inherit;
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 1em;
+    color: #fff;
+}
+
+.main-name {
+    font-size: 2.5em;
+}
+
+.main-details {
+    margin: 0 auto;
+}
