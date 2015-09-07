@@ -1,33 +1,53 @@
 html {
     font-size: 16px;
-    background: url(/~gelonoel/images/noise.jpg);
+    background: url(../images/noise.jpg);
+    line-height: 1.25em;
 }
 
 header, main, footer {
     padding-left: 15em;
 }
 
-@media only screen and (max-width : 992px) {
-    header, main, footer {
-      padding-left: 0;
-    }
+.profile {
+    background: url(../images/lecture.jpg) left no-repeat;
+    background-size: cover;
 }
 
-.profile {
-    background: url(/~gelonoel/images/lecture.jpg) center no-repeat;
-    background-size: cover;
+.menu-icons {
+    width: 1.25em;
+    float: left;
+    position: relative;
+    top: 0;
 }
 
 .profile-body {
     height: 35em;
-    padding-top: 10em;
+    padding-top: 8em;
     text-shadow: 0.10em 0.15em black;
 }
 
-.menu-icons {
-    width: 1.5em;
-    float: left;
+.main-details {
+    margin: 0 auto;
 }
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+    
+    .profile-body {
+        height: 35em;
+        padding-top: 2em;
+        text-shadow: 0.10em 0.15em black;
+    }
+    
+    .main-details {
+        margin: 0 auto;
+        margin-top: 8em;
+    }
+    
+}
+
 
 .card-title {
     padding-left: 1em;
@@ -74,6 +94,7 @@ header, main, footer {
     font-size: 2.5em;
 }
 
-.main-details {
-    margin: 0 auto;
+.footer-link {
+    position: relative;
+    top:-0.5em;
 }
