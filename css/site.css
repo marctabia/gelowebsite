@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    background: url(/images/noise.jpg);
+    background: url(/~gelonoel/images/noise.jpg);
 }
 
 header, main, footer {
@@ -14,7 +14,7 @@ header, main, footer {
 }
 
 .profile {
-    background: url(/images/lecture.jpg) center no-repeat;
+    background: url(/~gelonoel/images/lecture.jpg) center no-repeat;
     background-size: cover;
 }
 
